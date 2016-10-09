@@ -5,7 +5,7 @@ Vagrant.configure(2) do |config|
     config.vm.box = "Markard/php-homestead"
 
     config.vm.box_check_update = true
-    config.vm.box_version = "=1.2.0"
+    config.vm.box_version = "=1.2.1"
 
     config.vm.network "private_network", ip: "192.168.10.10"
 
